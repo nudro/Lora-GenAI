@@ -1,0 +1,44 @@
+# Ignore docs directory
+docs/
+
+# Ignore system files
+.bash_history
+.bash_logout
+.bashrc
+.cache/
+.conda/
+.config/
+.cursor/
+.gitconfig
+.gnupg/
+.local/
+.nvsdkm/
+.pki/
+.profile
+.ssh/
+.sudo_as_admin_successful
+.wget-hsts
+
+# Ignore personal directories
+Applications/
+Desktop/
+Downloads/
+Pictures/
+balenaEtcher-linux-x64-2.1.4/
+miniconda3/
+nvidia/
+snap/
+
+# Ignore system directories with permission issues
+../../nvidia/
+
+# Ignore temporary files
+*.tmp
+*.log
+*.swp
+*.swo
+*~
+
+# Ignore data files with sensitive information
+soil-sensor-1_live_data_*.json
+soil-sensor-info.txt
