@@ -38,7 +38,7 @@ class OrinHybridCollector:
         curl_command = [
             "curl", "-G",
             "https://nam1.cloud.thethings.network/api/v3/as/applications/soil-sensor-saranac/devices/lestat-lives/packages/storage/uplink_message",
-            "-H", "Authorization: Bearer NNSXS.4NHBK6Y6LZZRCT6RBWFLZT7MSFWWMRTA3YXENSI.CBAILAOXXHT7T2SS2J66I4QA2PS2BWP32QZY6PVCYATC5LYLQ3LQ",
+            "-H", "Authorization: Bearer YOUR_TTN_API_KEY",
             "-H", "Accept: text/event-stream",
             "-d", "last=12h"
         ]
@@ -198,7 +198,7 @@ def main():
     mqtt_host = "YOUR_LOCAL_COMPUTER_IP"  # Replace with your local computer's IP address
     mqtt_port = 1883
     mqtt_username = "soil-sensor-saranac@ttn"
-    mqtt_password = "NNSXS.BNNIUDOGAMLGYN7HTYF7QRSX2R26F5QNQ254FZY.2YJQHCL3VDNWRVRABLG4XBOUJC5AUHGUFLALIRKH5B6MOBE3T5WQ"
+    mqtt_password = "YOUR_MQTT_PASSWORD"
     
     print(f"Connecting to MQTT broker at {mqtt_host}:{mqtt_port}")
     
