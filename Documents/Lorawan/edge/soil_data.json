@@ -1,0 +1,184 @@
+[
+  {
+    "timestamp": "2025-10-24T17:40:01.540431990Z",
+    "device_id": "lestat-lives",
+    "sensor_data": {
+      "Bat": 3.594,
+      "Hardware_flag": 0,
+      "Interrupt_flag": 0,
+      "Sensor_flag": 1,
+      "TempC_DS18B20": "327.60",
+      "conduct_SOIL": 11,
+      "temp_SOIL": "15.50",
+      "water_SOIL": "8.27"
+    },
+    "raw_message": {
+      "data": {
+        "end_device_ids": {
+          "device_id": "lestat-lives",
+          "application_ids": {
+            "application_id": "soil-sensor-saranac"
+          },
+          "dev_eui": "A8404187D55BBA3B",
+          "dev_addr": "260C61A2"
+        },
+        "received_at": "2025-10-24T17:40:01.540431990Z",
+        "uplink_message": {
+          "f_port": 2,
+          "f_cnt": 281,
+          "frm_payload": "DgoMzAM7Bg4ACxA=",
+          "decoded_payload": {
+            "Bat": 3.594,
+            "Hardware_flag": 0,
+            "Interrupt_flag": 0,
+            "Sensor_flag": 1,
+            "TempC_DS18B20": "327.60",
+            "conduct_SOIL": 11,
+            "temp_SOIL": "15.50",
+            "water_SOIL": "8.27"
+          },
+          "rx_metadata": [
+            {
+              "gateway_ids": {
+                "gateway_id": "soil-sensor-1",
+                "eui": "A84041FDFE2A7510"
+              },
+              "time": "2025-10-24T17:40:01.293814Z",
+              "timestamp": 1740052464,
+              "rssi": -25,
+              "channel_rssi": -25,
+              "snr": 13.8,
+              "frequency_offset": "-788",
+              "channel_index": 1,
+              "received_at": "2025-10-24T17:40:01.331278778Z"
+            }
+          ],
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "spreading_factor": 7,
+                "coding_rate": "4/5"
+              }
+            },
+            "frequency": "904100000",
+            "timestamp": 1740052464,
+            "time": "2025-10-24T17:40:01.293814Z"
+          },
+          "received_at": "2025-10-24T17:40:01.332818166Z",
+          "consumed_airtime": "0.061696s",
+          "version_ids": {
+            "brand_id": "dragino",
+            "model_id": "lse01",
+            "hardware_version": "_unknown_hw_version_",
+            "firmware_version": "1.1.4",
+            "band_id": "US_902_928"
+          },
+          "network_ids": {
+            "net_id": "000013",
+            "ns_id": "EC656E0000000182",
+            "tenant_id": "ttn",
+            "cluster_id": "nam1",
+            "cluster_address": "nam1.cloud.thethings.network"
+          },
+          "last_battery_percentage": {
+            "f_cnt": 223,
+            "value": 100,
+            "received_at": "2025-10-23T22:20:14.077461831Z"
+          }
+        }
+      }
+    }
+  },
+  {
+    "timestamp": "2025-10-24T18:00:01.322493131Z",
+    "device_id": "lestat-lives",
+    "sensor_data": {
+      "Bat": 3.594,
+      "Hardware_flag": 0,
+      "Interrupt_flag": 0,
+      "Sensor_flag": 1,
+      "TempC_DS18B20": "327.60",
+      "conduct_SOIL": 11,
+      "temp_SOIL": "15.60",
+      "water_SOIL": "8.26"
+    },
+    "raw_message": {
+      "data": {
+        "end_device_ids": {
+          "device_id": "lestat-lives",
+          "application_ids": {
+            "application_id": "soil-sensor-saranac"
+          },
+          "dev_eui": "A8404187D55BBA3B",
+          "dev_addr": "260C61A2"
+        },
+        "received_at": "2025-10-24T18:00:01.322493131Z",
+        "uplink_message": {
+          "f_port": 2,
+          "f_cnt": 282,
+          "frm_payload": "DgoMzAM6BhgACxA=",
+          "decoded_payload": {
+            "Bat": 3.594,
+            "Hardware_flag": 0,
+            "Interrupt_flag": 0,
+            "Sensor_flag": 1,
+            "TempC_DS18B20": "327.60",
+            "conduct_SOIL": 11,
+            "temp_SOIL": "15.60",
+            "water_SOIL": "8.26"
+          },
+          "rx_metadata": [
+            {
+              "gateway_ids": {
+                "gateway_id": "soil-sensor-1",
+                "eui": "A84041FDFE2A7510"
+              },
+              "time": "2025-10-24T18:00:01.080530Z",
+              "timestamp": 2939830618,
+              "rssi": -31,
+              "channel_rssi": -31,
+              "snr": 13.8,
+              "frequency_offset": "-783",
+              "channel_index": 6,
+              "received_at": "2025-10-24T18:00:01.117947021Z"
+            }
+          ],
+          "settings": {
+            "data_rate": {
+              "lora": {
+                "bandwidth": 125000,
+                "spreading_factor": 7,
+                "coding_rate": "4/5"
+              }
+            },
+            "frequency": "905100000",
+            "timestamp": 2939830618,
+            "time": "2025-10-24T18:00:01.080530Z"
+          },
+          "received_at": "2025-10-24T18:00:01.119258694Z",
+          "consumed_airtime": "0.061696s",
+          "version_ids": {
+            "brand_id": "dragino",
+            "model_id": "lse01",
+            "hardware_version": "_unknown_hw_version_",
+            "firmware_version": "1.1.4",
+            "band_id": "US_902_928"
+          },
+          "network_ids": {
+            "net_id": "000013",
+            "ns_id": "EC656E0000000182",
+            "tenant_id": "ttn",
+            "cluster_id": "nam1",
+            "cluster_address": "nam1.cloud.thethings.network"
+          },
+          "last_battery_percentage": {
+            "f_cnt": 223,
+            "value": 100,
+            "received_at": "2025-10-23T22:20:14.077461831Z"
+          }
+        }
+      }
+    }
+  }
+]
