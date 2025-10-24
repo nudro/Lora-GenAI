@@ -4,12 +4,11 @@
 # This script runs the orin_soil_collector.py and logs the output
 
 # Configuration
-SCRIPT_DIR="/home/catherine/Documents/Lorawan/edge"  # Update this path for your Orin Nano
-LOG_FILE="/var/log/soil_collector.log"
+SCRIPT_DIR="/home/ordun/Documents/Lorawan/edge"  # Update this path for your Orin Nano
+LOG_FILE="/home/ordun/Documents/Lorawan/edge/soil_collector.log"
 PYTHON_SCRIPT="orin_soil_collector.py"
 
-# Create log directory if it doesn't exist
-sudo mkdir -p /var/log
+# Create log directory if it doesn't exist (not needed for user directory)
 
 # Change to script directory
 cd "$SCRIPT_DIR" || {
