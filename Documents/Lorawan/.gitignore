@@ -29,6 +29,9 @@ miniconda3/
 nvidia/
 snap/
 
+# Ignore system directories with permission issues
+../../nvidia/
+
 # Ignore temporary files
 *.tmp
 *.log
