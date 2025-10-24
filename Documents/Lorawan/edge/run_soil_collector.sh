@@ -4,11 +4,11 @@
 # This script runs the orin_soil_collector.py and logs the output
 
 # Configuration
-SCRIPT_DIR="/home/ordun/Documents/Lorawan/edge"  # Update this path for your Orin Nano
-LOG_FILE="/home/ordun/Documents/Lorawan/edge/soil_collector.log"
+LOG_FILE="soil_collector.log"
 PYTHON_SCRIPT="orin_soil_collector.py"
 
-# Create log directory if it doesn't exist (not needed for user directory)
+# Get the directory where this script is located
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # Change to script directory
 cd "$SCRIPT_DIR" || {
