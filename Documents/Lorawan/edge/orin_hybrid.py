@@ -195,7 +195,7 @@ def main():
     client.user_data_set(collector)
     
     # MQTT settings
-    mqtt_host = "localhost"
+    mqtt_host = "YOUR_LOCAL_COMPUTER_IP"  # Replace with your local computer's IP address
     mqtt_port = 1883
     mqtt_username = "soil-sensor-saranac@ttn"
     mqtt_password = "NNSXS.BNNIUDOGAMLGYN7HTYF7QRSX2R26F5QNQ254FZY.2YJQHCL3VDNWRVRABLG4XBOUJC5AUHGUFLALIRKH5B6MOBE3T5WQ"
