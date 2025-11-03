@@ -1,5 +1,7 @@
 # Lora-Soil-GenAI-Project
 
+<img src=lora.jpg>
+
 # DRAGINO LoRaWAN Gateway Setup Guide
 
 ## Overview
